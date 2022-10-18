@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #202020;
 }
 
 a {
@@ -84,5 +85,11 @@ a {
   }
   .search-bar{
     width:200px;
+  }
+}
+
+@media (min-width: 600px) {
+  .css-1gtdsyn {
+    margin-right: 0px !important;
   }
 }

@@ -3,7 +3,7 @@ import { Stack }  from '@mui/material';
 import { categories } from '../utils/constants';
 
 const Sidebar = ( {selectedCategory, setSelectedCategory }) => (
-    <Stack direction='row' sx={{overflowY: 'auto', height: {sx: 'auto', md:'92vh'}, flexDirection: {md: 'column'}}}>
+    <Stack direction='row' sx={{overflowY: 'auto', height: {sx: 'auto', md:'91vh'}, flexDirection: {md: 'column'}}}>
         {categories.map((category) => (
         <button
             className="category-btn"
