@@ -15,7 +15,8 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
       width: { xs: '356px', md: '320px' },
       height: '200px',
       margin: 'auto',
-      marginTop
+      marginTop: { xs: '20px', md: marginTop},
+      marginBottom: { xs: '20px', md: 'auto'}
     }}
   >
     <Link to={`/channel/${channelDetail?.id?.channelId}`}>
