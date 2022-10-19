@@ -20,8 +20,8 @@ const Feed = () => {
       <Box sx={{ height: { sx: "auto", md: "92vh" }, borderRight: "1px solid #3d3d3d", px: { sx: 0, md: 2 } }}>
         <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
         
-        <Typography className="copyright" variant="body2" sx={{ pb: 5, color: "#fff", }}>
-          Copyright © 2022 Dominic Cabitac
+        <Typography className="copyright" variant="body2" sx={{ mt: '-20px', color: "#fff", }}>
+          Dominic Cabitac © 2022
         </Typography>
       </Box>
 
