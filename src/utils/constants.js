@@ -14,7 +14,8 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 import AppleIcon from '@mui/icons-material/Apple';
 import SportsBasketballIcon from '@mui/icons-material/SportsBasketball';
 
-export const logo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1920px-YouTube_full-color_icon_%282017%29.svg.png?20211015074811';
+// export const logo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1920px-YouTube_full-color_icon_%282017%29.svg.png?20211015074811';
+export const logo = '../../public/YoutubeLogo.svg'
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
